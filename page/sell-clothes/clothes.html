@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPINGBAG</title>
+    <link rel="stylesheet" href="../../css/all.css">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href ="css/style.css">
+</head>
+<body >
+    <header>
+        <div class="screen-md">
+            <nav class="navbar text-light navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid text-light">
+            <h4 class="col-3 ">SHOPING<span style="color: rgb(255, 217, 0);">BAG</span></h4>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">My Account</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Wishlist</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#" >My card</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#" >Checkout</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Home</a></li>
+                          <li><a class="dropdown-item" href="#">Clothing</a></li>
+                          <li><a class="dropdown-item" href="#">Electronics</a></li>
+                          <li><a class="dropdown-item" href="#">Blog</a></li>
+                          <li><a class="dropdown-item" href="#">Watches</a></li>
+                          <li><a class="dropdown-item" href="#">Shops</a></li>
+                          <li><a class="dropdown-item" href="#">Pages</a></li>
+                          <li><a class="dropdown-item" href="#">Content</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <a href=""  class="btn my-3 btn-outline-warning text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Login
+                        </a>
+                        <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                                      <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                      <label class="form-check-label" for="exampleCheck1">Show Password</label>
+                                    </div>
+                                  </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-warning">Login</button>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+        
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <div class="bg-dark screen-lg ">
+        <div class="container p-2 d-flex  text-light">
+            <select class="bg-dark text-light" style="border: none;">
+                <option>English</option>
+                <option>French</option>
+                <option>Arbic</option>
+                <option>Italu</option>
+                <option>chines</option>
+            </select>
+            <select  class="bg-dark text-light " style="border: none;">
+                <option>$USD</option>
+                <option>₩KRW</option>
+                <option>₩KPW</option>
+                <option>€EUR</option>
+                <option>£EGP</option>
+                <option>¥JPY</option>
+                <option>₦NGN</option>
+                <option>฿THB</option>
+            </select>
+            <div class="d-flex col-10 gap-3 justify-content-end" >
+                <a href="" class="text-light">My Account</a>
+                <a href="" class="text-light">Wishlist</a>
+                <a href="" class="text-light">My Card</a>
+                <a href="" class="text-light">Checkout</a>
+                <a href=""  class="text-light btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                login
+                </a>
+                <div class="modal fade text-dark" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Show Password</label>
+                            </div>
+                          </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-warning">Login</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex ">
+            <h4 class="col-3 text-light">SHOPING<span style="color: rgb(255, 217, 0);">BAG</span></h4>
+            <input type="search" class="form-control  " placeholder="Search Here"  aria-label="Text input with dropdown button" style="border-radius:50px; width:62%; height: 30px;">
+            <a href="" class="text-light "><i class="far fa-heart fs-2" style="margin-left: 10px;"></i></a>
+            <a href="" class="text-light "><i class="fas fa-shopping-cart fs-2" style="margin-left: 10px;"></i></a>
+        </div>
+        <ul class="nav nav-pills  nav-fill  container">
+            <li class="nav-item text-light">
+              <a class="nav-link active bg-dark" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-light" data-bs-toggle="tooltip" data-bs-placement="top" title="NEW">
+                    Clothing
+                </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Electronics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Watches</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Shops</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Content</a>
+            </li>
+          </ul>
+        </div>
+    </header>
+    <main>
+      <div class="container my-3 ">
+        <div id="home" class="carousel slide "  data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#home" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#home" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#home" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner rounded">
+            <div class="carousel-item   active">
+              <img src="image/banner-01.jpg" class="d-block  w-100" alt="...">
+              <div class="card-img-overlay " style="background-color: rgba(0, 0, 0,0.5);">
+              <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0,0.6);">
+                <h5>The most famous brands</h5>
+                <p> H&M & Christian Dior & Nike & Kering & ZARA & Adidas</p>
+              </div>
+            </div>
+            </div>
+            <div class="carousel-item " >
+              <img src="image/banner-02.jpg" class="d-block   w-100" alt="...">
+              <div class="card-img-overlay " style="background-color: rgba(0, 0, 0,0.5);">
+              <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0,0.6);">
+                <h5>Cheapest prices</h5>
+                <p>There is delivery of clothes to all over the world</p>
+              </div>
+            </div>
+            </div>
+            <div class="carousel-item " >
+              <img src="image/blog23-img.jpg" class="d-block  w-100 " alt="...">
+              <div class="card-img-overlay " style="background-color: rgba(0, 0, 0,0.5);">
+              <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0,0.6);">
+                <h5>There are children's sizes</h5>
+                <p>There are all sizes from the first 8 months to 60 years</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#home" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#home" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </main>
+    <section>
+      <div class="container  my-2 d-flex justify-content-between flex-wrap ">
+        <div class="col-lg-2 col-12 list-group dropend" >
+          <a class="list-group-item active bg-warning  text-dark" href="#"><h6 style="font-size: 19px;"><i class="fas fa-list"></i> Categories</h6></a>
+          <a class="list-group-item  dropdown-toggle text-dark" href="#"><i class="fas fa-home"></i > Home </a>
+            <a class="list-group-item  dropdown-toggle text-dark" href="#"><i class="fas fa-store-alt"></i> Clothes </a>
+            <a class="list-group-item  dropdown-toggle text-dark" href="#"><i class="fas fa-laptop"></i> Electronics </a>
+            <a class="list-group-item  dropdown-toggle text-dark" href="#"><i class="fas fa-paw"></i> Shoes </a>
+            <a class="list-group-item  dropdown-toggle text-dark" href="#"><i class="fas fa-clock"></i> Watches </a>
+            <a class="list-group-item  dropdown-toggle text-dark" href="#"><i class="fas fa-blog"></i> Blog </a>
+            <a class="list-group-item  dropdown-toggle text-dark" href="#"><i class="fas fa-file"></i> Pages </a>
+            <a class="list-group-item  dropdown-toggle text-dark" href="#"><i class="fas fa-id-card"></i> Contact </a>
+          </div>
+          <div class="col-lg-9 col-12 card bg-dark text-white">
+          <div class="">
+            <img src="image/pexels-steve-johnson-1269968.jpg" class="card-img" alt="" height="378" >
+            <div class="card-img-overlay p-5 " style="background-color: rgba(0, 0, 0,0.7);">
+              <h5 class="card-text text-warning">TOPBRANDS </h5>
+              <h2 class="card-title">SHOPING<span class="text-warning">BAG</span></h2>
+              <p class="card-text">This is a wider card with supporting text below as </p>
+              <button type="button" class="card-text btn btn-outline-warning">SHOP NOW</button>
+            </div>
+        </div>
+          </div>
+        </div>
+      </section>
+    <section>
+      <div class="container  my-3 justify-content-between  shirt-lx" >
+        <div class="col-xl-2 border  rounded" >
+            <div class="d-flex  justify-content-between align-items-center border-bottom border-3 px-2" style="margin-bottom: 0;">
+              <h5 style=" font-size: .75rem; margin-bottom: 0;" class="text-danger">HOT DEALS</h5><p style="margin-bottom: 0;"><button class="btn btn-light fs-4 " data-bs-target="#hot" data-bs-slide="prev">&lt;</button><button class="btn btn-light ml-5 fs-4" data-bs-target="#hot" data-bs-slide="next">&gt;</button></p>
+            </div>
+            <div id="hot" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item  active">
+                        <img src="image/tshirt-img.png" class="w-100" style=" height: 220px;"  alt="...">
+                        <div class="p-3">
+                          <h5 >T-Shirt warning</h5>
+                          <p class=" text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                          <div class="d-flex  justify-content-between align-items-center px-2" >
+                            <h5 class="">$50.00</h5><h5 class="text-decoration-line-through text-secondary">$60.00</h5>
+                          </div>
+                          <button type="button" class="btn btn-outline-warning" price="50" id ="sell">Sell</button>
+                      </div>
+                </div>
+                <div class="carousel-item ">
+                        <img src="image/anomaly-WWesmHEgXDs-unsplash.jpg" class="w-100" style=" height: 220px;"  alt="...">
+                        <div class="p-3">
+                          <h5 >T-Shirt Light</h5>
+                          <p class=" text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                          <div class="d-flex  justify-content-between align-items-center px-2" >
+                            <h5 class="">$50.00</h5><h5 class="text-decoration-line-through text-secondary">$60.00</h5>
+                          </div>
+                          <button type="button" class="btn btn-outline-warning" price="50" id = "sell">Sell</button>
+                      </div>
+                </div>
+                <div class="carousel-item ">
+                        <img src="image/product-2.jpg" class="w-100" style=" height: 220px;"  alt="...">
+                        <div class="p-3">
+                          <h5 >T-Shirt blue</h5>
+                          <p class=" text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                          <div class="d-flex  justify-content-between align-items-center px-2" >
+                            <h5 class="">$29.99</h5><h5 class="text-decoration-line-through text-secondary">$40.00</h5>
+                          </div>
+                          <button type="button" class="btn btn-outline-warning" price="29.99" id = "sell">Sell</button>
+                      </div>
+                </div>
+              </div>
+          </div>
+          </div>
+        <div class="col-xl-9 border rounded " style="height: 450px;">
+
+              <div class="d-flex  justify-content-between align-items-center border-bottom border-3 px-2" style="margin-bottom: 0;">
+                <h5 style="margin-bottom: 0;" class="text-danger">NEW PRODUCTS DEALS</h2><p style="margin-bottom: 0;"><button class="btn btn-light fs-4 " data-bs-target="#products" data-bs-slide="prev">&lt;</button><button class="btn btn-light ml-5 fs-4" data-bs-target="#products" data-bs-slide="next">&gt;</button></p>
+              </div>
+            <div id="products" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item  ">
+                  <div class="d-flex justify-content-between ">
+                    <div style="width: 17rem;">
+                      <img src="image/11-967x1000.png" class="w-100" style=" height: 220px;" alt="...">
+                      <div class="p-3">
+                        <h5 >Shirt blue</h5>
+                        <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                        <div class="d-flex  justify-content-between align-items-center px-2" >
+                          <h5 class="">$19.99</h5><h5 class="text-decoration-line-through text-secondary">$25.00</h5>
+                        </div>
+                        <button type="button" class="btn btn-outline-warning" price="19.99" id = "sell">Sell</button>
+                      </div>
+          
+                    </div>
+                    <div style="width: 17rem;">
+                      <img src="image/4-967x1000.png" class="w-100" style=" height: 220px;" alt="...">
+                      <div class="p-3">
+                        <h5 >T-Shirt block</h5>
+                        <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                        <div class="d-flex  justify-content-between align-items-center px-2" >
+                          <h5 class="">$30.00</h5><h5 class="text-decoration-line-through text-secondary">$45.00</h5>
+                        </div>
+                        <button type="button" class="btn btn-outline-warning" price="30" id = "sell">Sell</button>
+                      </div>
+          
+                    </div>
+                    <div style="width: 17rem;">
+                      <img src="image/01-933x1000.jpg" class="w-100" style=" height: 220px;" alt="...">
+                      <div class="p-3">
+                        <h5>T-Shirt Mockup</h5>
+                        <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                        <div class="d-flex  justify-content-between align-items-center px-2" >
+                          <h5 class="">$49.99</h5><h5 class="text-decoration-line-through text-secondary">$59.00</h5>
+                        </div>
+                        <button type="button" class="btn btn-outline-warning" price="49.99" id = "sell">Sell</button>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item  active">
+                  <div class="d-flex justify-content-between ">
+                    <div style="width: 17rem;">
+                      <img src="image/15-120x130.png" class="w-100" style=" height: 220px;" alt="...">
+                      <div class="p-3">
+                        <h5 >sweatshirt block</h5>
+                        <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                        <div class="d-flex  justify-content-between align-items-center px-2" >
+                          <h5 class="">$20.00</h5><h5 class="text-decoration-line-through text-secondary">$27.00</h5>
+                        </div>
+                        <button type="button" class="btn btn-outline-warning" price="20" id = "sell">Sell</button>
+                      </div>
+          
+                    </div>
+                    <div style="width: 17rem;">
+                      <img src="image/16-120x130.png" class="w-100" style=" height: 220px;" alt="...">
+                      <div class="p-3">
+                        <h5 >sweatshirt server</h5>
+                        <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                        <div class="d-flex  justify-content-between align-items-center px-2" >
+                          <h5 class="">$20.00</h5><h5 class="text-decoration-line-through text-secondary">$27.00</h5>
+                        </div>
+                        <button type="button" class="btn btn-outline-warning" price="20" id = "sell">Sell</button>
+                      </div>
+          
+                    </div>
+                    <div style="width: 17rem;">
+                      <img src="image/23-120x130.png" class="w-100" style=" height: 220px;" alt="...">
+                      <div class="p-3">
+                        <h5 >Dress Pink</h5>
+                        <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                        <div class="d-flex  justify-content-between align-items-center px-2" >
+                          <h5 class="">$20.00</h5><h5 class="text-decoration-line-through text-secondary">$27.00</h5>
+                        </div>
+                        <button type="button" class="btn btn-outline-warning" price="20" id = "sell">Sell</button>
+                      </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="carousel-item  ">
+                      <div class="d-flex justify-content-between ">
+                        <div style="width: 17rem;">
+                          <img src="image/7-543x604.png" class="w-100" style=" height: 220px;" alt="...">
+                          <div class="p-3">
+                            <h5 >Sleeveless Crop Top</h5>
+                            <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                            <div class="d-flex  justify-content-between align-items-center px-2" >
+                              <h5 class="">$22.00</h5><h5 class="text-decoration-line-through text-secondary">$29.00</h5>
+                            </div>
+                            <button type="button" class="btn btn-outline-warning" price="22" id = "sell">Sell</button>
+                          </div>
+              
+                        </div>
+                        <div style="width: 17rem;">
+                          <img src="image/24-900x1000.png" class="w-100" style=" height: 220px;" alt="...">
+                          <div class="p-3">
+                            <h5 >Dress blue</h5>
+                            <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                            <div class="d-flex  justify-content-between align-items-center px-2" >
+                              <h5 class="">$14.99</h5><h5 class="text-decoration-line-through text-secondary">$19.00</h5>
+                            </div>
+                            <button type="button" class="btn btn-outline-warning" price="14.99" id = "sell">Sell</button>
+                          </div>
+              
+                        </div>
+                        <div style="width: 17rem;">
+                          <img src="image/7-967x1000.png" class="w-100" style=" height: 220px;" alt="...">
+                          <div class="p-3">
+                            <h5 >T-Shirt Green</h5>
+                            <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                            <div class="d-flex  justify-content-between align-items-center px-2" >
+                              <h5 class="">$19.99</h5><h5 class="text-decoration-line-through text-secondary">$25.00</h5>
+                            </div>
+                            <button type="button" class="btn btn-outline-warning" price="19.99" id = "sell">Sell</button>
+                          </div>
+                        </div>
+                        </div>
+                        </div>
+              </div>
+        </div>  
+      </div>
+    </div>
+  <div class="container col-12 border rounded my-3 shirt-lg  ">
+
+    <div class="d-flex  justify-content-between align-items-center border-bottom border-3 px-2" style="margin-bottom: 0;">
+      <h5 style="margin-bottom: 0;" class="text-danger">NEW PRODUCTS DEALS</h3><p style="margin-bottom: 0;"><button class="btn btn-light fs-4 " data-bs-target="#products-lg" data-bs-slide="prev">&lt;</button><button class="btn btn-light ml-5 fs-4" data-bs-target="#products-lg" data-bs-slide="next">&gt;</button></p>
+    </div>
+  <div id="products-lg" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item  ">
+        <div class="d-flex justify-content-between ">
+          <div style="width: 17rem;">
+            <img src="image/11-967x1000.png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >Shirt blue</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$19.99</h5><h5 class="text-decoration-line-through text-secondary">$25.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="19.99" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          <div style="width: 17rem;">
+            <img src="image/4-967x1000.png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >T-Shirt block</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$30.00</h5><h5 class="text-decoration-line-through text-secondary">$45.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="30" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          <div style="width: 17rem;">
+            <img src="image/01-933x1000.jpg" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5>T-Shirt Mockup</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$49.99</h5><h5 class="text-decoration-line-through text-secondary">$59.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="49.99" id = "sell">Sell</button>
+            </div>
+          </div>
+          </div>
+      </div>
+      <div class="carousel-item active ">
+        <div class="d-flex justify-content-between ">
+          <div style="width: 17rem;">
+            <img src="image/tshirt-img.png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >T-Shirt warning</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$50.00</h5><h5 class="text-decoration-line-through text-secondary">$60.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="50" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          <div style="width: 17rem;">
+            <img src="image/anomaly-WWesmHEgXDs-unsplash.jpg" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >T-Shirt Light</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$30.00</h5><h5 class="text-decoration-line-through text-secondary">$45.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="30" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          <div style="width: 17rem;">
+            <img src="image/product-2.jpg" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5>T-Shirt blue</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$29.99</h5><h5 class="text-decoration-line-through text-secondary">$40.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="29.99" id = "sell">Sell</button>
+            </div>
+          </div>
+          </div>
+      </div>
+      <div class="carousel-item ">
+        <div class="d-flex justify-content-between ">
+          <div style="width: 17rem;">
+            <img src="image/15-120x130.png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >sweatshirt block</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$20.00</h5><h5 class="text-decoration-line-through text-secondary">$27.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="20" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          <div style="width: 17rem;">
+            <img src="image/16-120x130.png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >sweatshirt server</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$20.00</h5><h5 class="text-decoration-line-through text-secondary">$27.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="20" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          <div style="width: 17rem;">
+            <img src="image/23-120x130.png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >Dress Pink</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$20.00</h5><h5 class="text-decoration-line-through text-secondary">$27.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="20" id = "sell">Sell</button>
+            </div>
+          </div>
+          </div>
+          </div>
+          <div class="carousel-item  ">
+            <div class="d-flex justify-content-between ">
+              <div style="width: 17rem;">
+                <img src="image/7-543x604.png" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >Sleeveless Crop Top</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$22.00</h5><h5 class="text-decoration-line-through text-secondary">$29.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="22" id = "sell">Sell</button>
+                </div>
+    
+              </div>
+              <div style="width: 17rem;">
+                <img src="image/24-900x1000.png" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >Dress blue</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$14.99</h5><h5 class="text-decoration-line-through text-secondary">$19.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="14.99" id = "sell">Sell</button>
+                </div>
+    
+              </div>
+              <div style="width: 17rem;">
+                <img src="image/7-967x1000.png" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >T-Shirt Green</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$19.99</h5><h5 class="text-decoration-line-through text-secondary">$25.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="19.99 id = "sell">Sell</button>
+                </div>
+              </div>
+              </div>
+              </div>
+    </div>
+</div> 
+  </div>
+    <div class="container col-12 shirt-md border rounded my-3   ">
+
+    <div class="d-flex  justify-content-between align-items-center border-bottom border-3 px-2" style="margin-bottom: 0;">
+      <h5 style="margin-bottom: 0;" class="text-danger">NEW PRODUCTS DEALS</h3><p style="margin-bottom: 0;"><button class="btn btn-light fs-4 " data-bs-target="#Watches" data-bs-slide="prev">&lt;</button><button class="btn btn-light ml-5 fs-4" data-bs-target="#Watches" data-bs-slide="next">&gt;</button></p>
+    </div>
+  <div id="Watches" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <div class="d-flex justify-content-between ">
+          <div style="width: 25rem;">
+            <img src="image/11-967x1000.png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >Shirt blue</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$19.99</h5><h5 class="text-decoration-line-through text-secondary">$25.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="19.99" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          <div style="width: 25rem;">
+            <img src="image/4-967x1000.png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >T-Shirt block</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$30.00</h5><h5 class="text-decoration-line-through text-secondary">$45.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="30" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          </div>
+      </div>
+      <div class="carousel-item ">
+        <div class="d-flex justify-content-between ">
+          <div style="width: 25rem;">
+            <img src="image/01-933x1000.jpg" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5>T-Shirt Mockup</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$49.99</h5><h5 class="text-decoration-line-through text-secondary">$59.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="49.99" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          <div style="width: 25rem;">
+            <img src="image/tshirt-img.png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >T-Shirt warning</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$50.00</h5><h5 class="text-decoration-line-through text-secondary">$60.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="50" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          </div>
+      </div>
+      <div class="carousel-item ">
+        <div class="d-flex justify-content-between ">
+          <div style="width: 25rem;">
+            <img src="image/anomaly-WWesmHEgXDs-unsplash.jpg" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >T-Shirt Light</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$30.00</h5><h5 class="text-decoration-line-through text-secondary">$45.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="30" id = "sell">Sell</button>
+
+            </div>
+
+          </div>
+          <div style="width: 25rem;">
+            <img src="image/product-2.jpg" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5>T-Shirt blue</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$29.99</h5><h5 class="text-decoration-line-through text-secondary">$40.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="29.99" id = "sell">Sell</button>
+            </div>
+
+          </div>
+
+          </div>
+          </div>
+          <div class="carousel-item  ">
+            <div class="d-flex justify-content-between ">
+              <div style="width: 25rem;">
+                <img src="image/15-120x130.png" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >sweatshirt block</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$20.00</h5><h5 class="text-decoration-line-through text-secondary">$27.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="20" id = "sell">Sell</button>
+                </div>
+    
+              </div>
+              <div style="width: 25rem;">
+                <img src="image/16-120x130.png" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >sweatshirt server</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$20.00</h5><h5 class="text-decoration-line-through text-secondary">$27.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="20" id = "sell">Sell</button>
+                </div>
+    
+              </div>
+              </div>
+              </div>
+          <div class="carousel-item  ">
+            <div class="d-flex justify-content-between ">
+              <div style="width: 25rem;">
+                <img src="image/7-543x604.png" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >Sleeveless Crop Top</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$22.00</h5><h5 class="text-decoration-line-through text-secondary">$29.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="22" id = "sell">Sell</button>
+                </div>
+    
+              </div>
+              <div style="width: 25rem;">
+                <img src="image/24-900x1000.png" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >Dress blue</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$14.99</h5><h5 class="text-decoration-line-through text-secondary">$19.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="14.99" id = "sell">Sell</button>
+                </div>
+    
+              </div>
+    </div>
+              </div>
+              <div class="carousel-item  ">
+                <div class="d-flex justify-content-between ">
+          <div style="width: 25rem;">
+            <img src="image/23-120x130.png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >Dress Pink</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$20.00</h5><h5 class="text-decoration-line-through text-secondary">$27.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="20" id = "sell">Sell</button>
+            </div>
+          </div>
+          <div style="width: 25rem;">
+          <img src="image/7-967x1000.png" class="w-100" style=" height: 220px;" alt="...">
+          <div class="p-3">
+            <h5 >T-Shirt Green</h5>
+            <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+            <div class="d-flex  justify-content-between align-items-center px-2" >
+              <h5 class="">$19.99</h5><h5 class="text-decoration-line-through text-secondary">$25.00</h5>
+            </div>
+            <button type="button" class="btn btn-outline-warning" price="19.99" id = "sell">Sell</button>
+          </div> 
+            </div> 
+            </div> 
+            </div> 
+          </div>
+          </div>
+          </div>
+    </section>
+    <section>
+      <div class="container shoes-xl justify-content-between ">
+        <div class="col-xl-3 border rounded">
+          <div class="d-flex my-2  justify-content-between align-items-center border-bottom border-3 px-2" style="margin-bottom: 0;">
+            <h5 style="margin-bottom: 0;" class="text-danger">TABLE SHOER</h3><p style="margin-bottom: 0;"><button class="btn btn-light fs-4 " data-bs-target="#shoes" data-bs-slide="prev">&lt;</button><button class="btn btn-light ml-5 fs-4" data-bs-target="#shoes" data-bs-slide="next">&gt;</button></p>
+          </div>
+          <div id="shoes" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+            <div class="d-flex  gap-3 p-3" style="width: 22rem;">
+              <img src="image/cat-3.jpg" class=" border img-shoes" alt="..."  >
+              <div class="card-body">
+                <h5 class="card-title">Shoes </h5>
+                <p class="card-text text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                <h5 class="text-dark">$250.00</h5>
+                <button type="button" class="btn btn-outline-warning" price="250" id = "sell">Sell</button>
+              </div>
+            </div>
+            <div class="d-flex gap-3 p-3" style="width: 22rem;">
+              <img src="image/product-4.jpg" class=" border img-shoes" alt="..." >
+              <div class="card-body">
+                <h5 class="card-title">Shoes Nike</h5>
+                <p class="card-text text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                <h5 class="text-dark">$150.00</h5>
+                <button type="button" class="btn btn-outline-warning" price="150" id = "sell">Sell</button>
+              </div>
+            </div>
+            </div>
+            <div class="carousel-item ">
+          <div class="d-flex  gap-3 p-3" style="width: 22rem;">
+            <img src="image/categories-img-02-200x200.png" class=" border img-shoes" alt="..."  >
+            <div class="card-body">
+              <h5 class="card-title">Shoes </h5>
+              <p class="card-text text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <h5 class="text-dark">$250.00</h5>
+              <button type="button" class="btn btn-outline-warning" price="250" id = "sell">Sell</button>
+            </div>
+          </div>
+          <div class="d-flex gap-3 p-3" style="width: 22rem;">
+            <img src="image/categories-img-03-200x200.png" class=" border img-shoes" alt="..." >
+            <div class="card-body">
+              <h5 class="card-title">Shoes Nike</h5>
+              <p class="card-text text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <h5 class="text-dark">$150.00</h5>
+              <button type="button" class="btn btn-outline-warning" price="150" id = "sell">Sell</button>
+            </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex  gap-3 p-3" style="width: 22rem;">
+              <img src="image/categories-img-05-200x200.png" class=" border img-shoes" alt="..." >
+              <div class="card-body">
+                <h5 class="card-title">Shoes</h5>
+                <p class="card-text text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                <h5 class="text-dark">$220.00</h5>
+                <button type="button" class="btn btn-outline-warning" price="220" id = "sell">Sell</button>
+              </div>
+            </div>
+            <div class="d-flex  gap-3 p-3" style="width: 22rem;">
+              <img src="image/categories-img-01-200x200.png" class=" border img-shoes" alt="..." >
+              <div class="card-body">
+                <h5 class="card-title">Shoes Nike</h5>
+                <p class="card-text text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                <h5 class="text-dark">$220.00</h5>
+                <button type="button" class="btn btn-outline-warning" price="220" id = "sell">Sell</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class=" border rounded  zoz">
+        <div class="card">
+          <img src="image/wallpaperflare.com_wallpaper (1).jpg" width="100%" alt="">
+          <div class="card-img-overlay p-5 text-light " style="background-color: rgba(0, 0, 0,0.5);">
+            <h5 class="card-text "> CAR SHOP</h5>
+            <h2 class="card-title text-danger">ZEZ MARKTING</h2>
+            <p class="card-text">The best online store for cars</p>
+            <a href="https://ziad768.github.io/web-3-bootstrap/" class="card-text btn btn-outline-danger" target="_blank">GO To ZEZ MARKTNG</a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="container">
+      <div class="container border my-3 shoes-lg rounded py-3" >
+        <h2 class="text-center text-danger">TABLE SHOER</h2>
+        <hr>
+        <div class=" d-flex flex-wrap gap-3 justify-content-between">
+          <div class="d-flex  gap-3 p-0 p-md-3" style="width: 25rem;">
+            <img src="image/cat-3.jpg" class=" border" alt="..." width="220px" >
+            <div class="card-body">
+              <h4 class="card-title">Shoes </h4>
+              <p class="card-text text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <h4 class="text-dark">$250.00</h4>
+              <button type="button" class="btn btn-outline-warning" price="250" id = "sell">Sell</button>
+            </div>
+          </div>
+          <div class="d-flex gap-3 p-0 p-md-3" style="width: 25rem;">
+            <img src="image/product-4.jpg" class=" border" alt="..." width="220px">
+            <div class="card-body">
+              <h4 class="card-title">Shoes Nike</h4>
+              <p class="card-text text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <h4 class="text-dark">$150.00</h4>
+              <button type="button" class="btn btn-outline-warning" price="150" id = "sell">Sell</button>
+            </div>
+          </div>
+          <div class="d-flex  gap-3 p-0 p-md-3" style="width: 25rem;">
+            <img src="image/categories-img-01-200x200.png" class=" border" alt="..." width="220px">
+            <div class="card-body">
+              <h4 class="card-title">Shoes Nike</h4>
+              <p class="card-text text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <h4 class="text-dark">$220.00</h4>
+              <button type="button" class="btn btn-outline-warning" price="220" id = "sell">Sell</button>
+            </div>
+          </div>
+          <div class="d-flex  gap-3 p-0 p-md-3" style="width: 25rem;">
+            <img src="image/categories-img-02-200x200.png" class=" border" alt="..." width="220px" >
+            <div class="card-body">
+              <h4 class="card-title">Shoes </h4>
+              <p class="card-text text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <h4 class="text-dark">$250.00</h4>
+              <button type="button" class="btn btn-outline-warning" price="250" id = "sell">Sell</button>
+            </div>
+          </div>
+          <div class="d-flex gap-3 p-0 p-md-3" style="width: 25rem;">
+            <img src="image/categories-img-03-200x200.png" class=" border" alt="..." width="220px">
+            <div class="card-body">
+              <h4 class="card-title">Shoes Nike</h4>
+              <p class="card-text text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <h4 class="text-dark">$150.00</h4>
+              <button type="button" class="btn btn-outline-warning" price="150" id = "sell">Sell</button>
+            </div>
+          </div>
+          <div class="d-flex  gap-3 p-0 p-md-3" style="width: 25rem;">
+            <img src="image/categories-img-05-200x200.png" class=" border" alt="..." width="220px">
+            <div class="card-body">
+              <h4 class="card-title">Shoes</h4>
+              <p class="card-text text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <h4 class="text-dark">$220.00</h4>
+              <button type="button" class="btn btn-outline-warning" price="220" id = "sell">Sell</button>
+            </div>
+          </div>
+      </div>
+      </div>
+      <div class="card shoes-lg">
+        <img src="image/wallpaperflare.com_wallpaper (1).jpg" width="100%" alt="">
+        <div class="card-img-overlay p-5 text-light " style="background-color: rgba(0, 0, 0,0.5);">
+          <h5 class="card-text "> CAR SHOP</h5>
+          <h2 class="card-title text-danger">ZEZ MARKTING</h2>
+          <p class="card-text">The best online store for cars</p>
+          <a href="https://ziad768.github.io/web-3-bootstrap/" class="card-text btn btn-outline-danger" target="_blank">GO To ZEZ MARKTNG</a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container col-12 border rounded my-3 Watch-lg  ">
+
+        <div class="d-flex  justify-content-between align-items-center border-bottom border-3 px-2" style="margin-bottom: 0;">
+          <h5 style="margin-bottom: 0;" class="text-danger">NEW PRODUCTS DEALS</h3><p style="margin-bottom: 0;"><button class="btn btn-light fs-4 " data-bs-target="#Watch-lg" data-bs-slide="prev">&lt;</button><button class="btn btn-light ml-5 fs-4" data-bs-target="#Watch-lg" data-bs-slide="next">&gt;</button></p>
+        </div>
+      <div id="Watch-lg" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <div class="d-flex justify-content-between ">
+              <div style="width: 17rem;">
+                <img src="image/4-270x324 (1).png" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >Watch Gold</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$299.99</h5><h5 class="text-decoration-line-through text-secondary">$350.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="299.99" id = "sell">Sell</button>
+                </div>
+    
+              </div>
+              <div style="width: 17rem;">
+                <img src="image/5-270x324.png" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >Watch Purple</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$150.00</h5><h5 class="text-decoration-line-through text-secondary">$170.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="150" id = "sell">Sell</button>
+                </div>
+    
+              </div>
+              <div style="width: 17rem;">
+                <img src="image/6-270x324.png" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5>Watch Black&GOld</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$49.99</h5><h5 class="text-decoration-line-through text-secondary">$59.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="49.99" id = "sell">Sell</button>
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="carousel-item  ">
+            <div class="d-flex justify-content-between ">
+              <div style="width: 17rem;">
+                <img src="image/9-270x324.png" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >Watch BlockServer</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$79.99</h5><h5 class="text-decoration-line-through text-secondary">$90.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="79.99" id = "sell">Sell</button>
+                </div>
+    
+              </div>
+              <div style="width: 17rem;">
+                <img src="image/10-270x324.png" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >Watch Server</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$40.00</h5><h5 class="text-decoration-line-through text-secondary">$47.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="40" id = "sell">Sell</button>
+              </div>
+              </div>
+              <div style="width: 17rem;">
+                <img src="image/instagram-img-08.jpg" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5>Watch XXL</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$29.99</h5><h5 class="text-decoration-line-through text-secondary">$40.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="29.99" id = "sell">Sell</button>
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="d-flex justify-content-between ">
+              <div style="width: 17rem;">
+                <img src="image/18-270x324.png" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >Watch Block</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$59.99</h5><h5 class="text-decoration-line-through text-secondary">$70.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="59.99" id = "sell">Sell</button>
+                </div>
+    
+              </div>
+              <div style="width: 17rem;">
+                <img src="image/product-6.jpg" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >SmartWatch Server</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$120.00</h5><h5 class="text-decoration-line-through text-secondary">$139.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="120" id = "sell">Sell</button>
+                </div>
+    
+              </div>
+              <div style="width: 17rem;">
+                <img src="image/img-pro-04.jpg" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >Watch White</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$34.99</h5><h5 class="text-decoration-line-through text-secondary">$49.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="34.99" id = "sell">Sell</button>
+                </div>
+              </div>
+              </div>
+              </div>
+        </div>
+    </div> 
+      </div>
+  <div class="container col-12 shirt-md border rounded my-3   ">
+
+    <div class="d-flex  justify-content-between align-items-center border-bottom border-3 px-2" style="margin-bottom: 0;">
+      <h5 style="margin-bottom: 0;" class="text-danger">NEW PRODUCTS DEALS</h3><p style="margin-bottom: 0;"><button class="btn btn-light fs-4 " data-bs-target="#Watches-md" data-bs-slide="prev">&lt;</button><button class="btn btn-light ml-5 fs-4" data-bs-target="#Watches-md" data-bs-slide="next">&gt;</button></p>
+    </div>
+  <div id="Watches-md" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <div class="d-flex justify-content-between ">
+          <div style="width: 25rem;">
+            <img src="image/4-270x324 (1).png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >Watch Gold</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$299.99</h5><h5 class="text-decoration-line-through text-secondary">$350.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="299.99" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          <div style="width: 25rem;">
+            <img src="image/5-270x324.png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >Watch Purple</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$150.00</h5><h5 class="text-decoration-line-through text-secondary">$170.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="150" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          </div>
+      </div>
+      <div class="carousel-item ">
+        <div class="d-flex justify-content-between ">
+          <div style="width: 25rem;">
+            <img src="image/6-270x324.png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5>Watch Black&GOld</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$49.99</h5><h5 class="text-decoration-line-through text-secondary">$59.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="49.99" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          <div style="width: 25rem;">
+            <img src="image/9-270x324.png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >Watch BlockServer</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$79.99</h5><h5 class="text-decoration-line-through text-secondary">$90.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="79.99" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          </div>
+      </div>
+      <div class="carousel-item ">
+        <div class="d-flex justify-content-between ">
+          <div style="width: 25rem;">
+            <img src="image/10-270x324.png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >Watch Server</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$40.00</h5><h5 class="text-decoration-line-through text-secondary">$47.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="40" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          <div style="width: 25rem;">
+            <img src="image/18-270x324.png" class="w-100" style=" height: 220px;" alt="...">
+            <div class="p-3">
+              <h5 >Watch Block</h5>
+              <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+              <div class="d-flex  justify-content-between align-items-center px-2" >
+                <h5 class="">$59.99</h5><h5 class="text-decoration-line-through text-secondary">$70.00</h5>
+              </div>
+              <button type="button" class="btn btn-outline-warning" price="59.99" id = "sell">Sell</button>
+            </div>
+
+          </div>
+          </div>
+          </div>
+          <div class="carousel-item  ">
+            <div class="d-flex justify-content-between ">
+              <div style="width: 25rem;">
+                <img src="image/product-6.jpg" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >SmartWatch Server</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$120.00</h5><h5 class="text-decoration-line-through text-secondary">$139.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="120" id = "sell">Sell</button>
+                </div>
+    
+              </div>
+              <div style="width: 25rem;">
+                <img src="image/img-pro-04.jpg" class="w-100" style=" height: 220px;" alt="...">
+                <div class="p-3">
+                  <h5 >Watch White</h5>
+                  <p class="text-danger"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                  <div class="d-flex  justify-content-between align-items-center px-2" >
+                    <h5 class="">$34.99</h5><h5 class="text-decoration-line-through text-secondary">$49.00</h5>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning" price="34.99" id = "sell">Sell</button>
+                </div>
+    
+              </div>
+              </div>
+              </div>
+    </div>
+</div> 
+  </div>
+    </section>
+    <section>
+      <div class="container p-3 rounded border cart" style="display: none;">
+        <h2>Shopping Cart</h2>
+        <p class="text-end text-dark" style="margin-bottom: -10px; margin-right: 30px;">price</p>
+        <hr>
+        <div class="items-cart">
+
+        </div>
+        <hr>
+        <div class="d-flex justify-content-between">
+          <h2><span>Total Price : </span><span id="total"></span><span>$</span></h2>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#sell-model">
+        Visa payment
+        </button>
+      </div>
+  <div class="modal fade" id="sell-model" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title">Visa payment</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-sm-7">
+              <input type="text" class="form-control" placeholder="1234-5678-1234-0000" aria-label="1234-1234-5688-5636" required>
+            </div>
+            <div class="col-sm">
+              <input type="text" class="form-control" placeholder="00/00" aria-label="00/00" required>
+            </div>
+            <div class="col-sm">
+              <input type="text" class="form-control" placeholder="CVV" aria-label="CVV" required>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit"  class="btn btn-warning">Visa payment</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>          
+        </div>
+    </section>
+    <div class="position-fixed bottom-0 end-0 p-3 rounded" id="alert" style="background-color: hsla(160, 100%, 50%, 0.632); display: none;">
+      <h4>It has been added to the cart</h4>
+    </div>
+    <footer>
+      <div class="pb-5 bg-dark">
+  <div class="d-flex flex-wrap justify-content-around text-center text-light py-4 bg-dark">
+    <div class="col-lg-3 col-12">
+      <h3 class=" border-top border-secondary border-bottom py-3">
+        <i class="fab fa-facebook text-primary fs-3"></i>
+        Good Company
+      </h3>
+      <div>
+        <p>Tel : 114-863-5297</p>
+        <p>Address : EGYPT</p>
+        <p>Fax : 114-863-5297</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-12">
+      <h3 class=" border-top border-secondary border-bottom py-3">
+        <i class="fab fa-facebook text-primary fs-3"></i>
+        Important links
+      </h3>
+      <div>
+        <a href="#" class="d-block my-2">Visit Us</a>
+        <a href="#" class="d-block my-3"> Take alook </a>
+        <a href="#" class="d-block my-3">Your health is more importan</a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-12">
+      <h3 class=" border-top border-secondary border-bottom py-3">
+        <i class="fab fa-facebook text-primary fs-3"></i>
+        Vision
+      </h3>
+      <div>
+        <p>Serveices for all</p>
+        <p>Provide best serveices</p>
+        <p>you will be better than before</p>
+      </div>
+    </div>
+  </div>
+  <h5 class="text-secondary  border-bottom border-top border-secondary m-0 text-center py-4 bg-dark">Copyright © 2023 Ziad Hamdi Saad, Good Company. All rights</h5>
+
+</div>
+</footer>    
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>

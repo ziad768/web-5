@@ -1,0 +1,73 @@
+*{
+    list-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+.screen-md{
+    display: none;
+}
+@media (max-width : 749px){
+    .screen-md{
+        display: block;
+    }
+    .screen-lg{
+        display: none;
+    }
+}
+.shirt-lx{
+    display: none;
+}
+.shoes-lg{
+    display: block;
+}
+.shoes-xl{
+    display: none;
+}
+.img-shoes{
+    width: 142px;
+}
+.zoz{
+width: 800px;
+}
+.shirt-lg{
+    display: none;
+}
+.Watch-lg{
+    display: none;
+}
+@media (min-width:767px) {
+    .shirt-md{
+        display: none;
+    }.shirt-lg{
+        display: block;
+    }.Watch-lg{
+        display: block;
+    }
+    
+}
+@media (min-width:1200px) {
+    .shirt-lx{
+        display: flex;
+    }
+    .shirt-lg{
+        display: none;
+    }
+    .shoes-xl{
+        display :flex;
+    }
+    .shoes-lg{
+        display: none;
+    }
+}
+@media (min-width:1400px) {
+    .img-shoes{
+        width: 180px;
+    }
+    .zoz{
+        width: 950px;
+    }
+}

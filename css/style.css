@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.overlay{
+    width: 100%;
+    min-height: calc(100vh - 76px);
+    max-height: 100vh;
+
+    background-color: rgba(3, 3, 3, 0.596);
+}
+.info-left{
+    transition: 2s;
+    transform: translateX(-110%);
+    opacity: 0;
+}
+    .info-right{
+        transition: 2s;
+        transform: translateX(120%);
+    opacity: 0;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
